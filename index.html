@@ -12,6 +12,12 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.20.0/axios.js"
+            integrity="sha512-6/5zO9B3GKTKl45L4FHRPB/d5PamwD37Gnz+GGa18atcadWWcC+UQjbXKNVkMN+IY6tPrJvN/h3Wn5dZgXEYKg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
     </head>
 
     <body>
@@ -32,12 +38,12 @@
                     </button>
                 </div>
 
-                <small id="search-error">Username not found</small>
+                <small id="search-error" hidden>Username not found</small>
             </header>
 
             <main></main>
         </div>
     </body>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </html>
